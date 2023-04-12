@@ -1,0 +1,11 @@
+import os
+
+WINDOW_HEIGHT = 720
+WINDOW_WIDTH = 1080
+WINDOW_POSITION_LEFT = 50
+WINDOW_POSITION_DOWN= 150
+
+DIRECTORY_PATH = os.path.dirname(__file__)
+PATH_IMAGES = os.path.join(DIRECTORY_PATH, "images")
+
+COLOR_NUT1= '#03a1fc'
